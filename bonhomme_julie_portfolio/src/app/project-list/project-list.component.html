@@ -1,0 +1,11 @@
+<div *ngFor="let project of projects">
+  <img *ngIf="project.image" src="{{ project.image }}">
+
+  <h3>{{ project.name }}</h3>
+
+  <p>{{ project.tech }}</p>
+
+  <p *ngIf="project.description">
+    {{ project.description }}
+  </p>
+</div>
