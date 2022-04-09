@@ -1,11 +1,18 @@
-<div *ngFor="let project of projects">
-  <img *ngIf="project.image" src="{{ project.image }}">
+<div class="all">
+  <h2>Voici mes projets réalisés jusqu'à maintenant !</h2>
+  <h3>Cliquez sur le nom d'un projet pour accéder à son repository Github.</h3>
 
-  <h3>{{ project.name }}</h3>
+  <section class="project-list">
+    <div class="project" *ngFor="let project of projects">
+      <h3>{{ project.name }}</h3>
 
-  <p>{{ project.tech }}</p>
+      <img *ngIf="project.image" src="{{ project.image }}">
 
-  <p *ngIf="project.description">
-    {{ project.description }}
-  </p>
+      <p>> {{ project.tech }}</p>
+
+      <p class="description" *ngIf="project.description">
+        {{ project.description }}
+      </p>
+    </div>
+  </section>
 </div>

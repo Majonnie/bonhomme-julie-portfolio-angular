@@ -21,4 +21,11 @@ export const projects = [
     description: null,
     image: null,
   },
+  {
+    id: 3,
+    name: 'Projet 3',
+    tech: ["C++", " C++", " C++", " C++"],
+    description: "Description du projet, wow que de détails et de professionnalisme",
+    image: null,
+  },
 ];

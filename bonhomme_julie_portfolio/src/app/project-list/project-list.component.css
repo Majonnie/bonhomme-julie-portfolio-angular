@@ -1,10 +1,56 @@
-div
+/*Style de la liste des projets. Variables (polices, couleurs...) déclarées dans ../styles.css*/
+
+.all
 {
-  border: 2px red solid;
+  padding: 2%;
+
+  text-align: center;
+  color: white;
+
+  background-color: var(--black);
 }
 
-h3
+.all > h3
 {
-  font-weight: bold;
-  color: red;
+  font-style: italic;
+}
+
+
+.project-list
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+
+.project
+{
+  padding: 2%;
+  margin: 3%;
+
+  height: 20em;
+  width: 15em;
+
+  color: var(--white);
+
+  border: 2px var(--dark_black) solid;
+  box-shadow: 10px 10px var(--dark_black);
+}
+
+.project > h3
+{
+  font-family: var(--title);
+}
+
+.project > img
+{
+  width: 100%;
+}
+
+.description
+{
+  /*Au cas où*/
+  overflow: scroll;
 }
