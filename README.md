@@ -8,3 +8,6 @@ Portfolio made using Angular.
     de détailler ces projets).
 
 Bien utiliser flex
+Partie Info -> à mettre après Project-list ?
+(dans ce cas mettre la présentation à la fin de Id ou
+au début de Project-list)
