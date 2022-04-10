@@ -3,11 +3,13 @@
 .all
 {
   padding: 2%;
+  background-color: var(--black);
+}
 
+.all > h2, .all > h3
+{
   text-align: center;
   color: white;
-
-  background-color: var(--black);
 }
 
 .all > h3
@@ -41,6 +43,7 @@
 
 .project > h3
 {
+  text-align: center;
   font-family: var(--title);
 }
 

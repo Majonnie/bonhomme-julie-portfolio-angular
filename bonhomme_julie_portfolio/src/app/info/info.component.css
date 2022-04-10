@@ -1,0 +1,78 @@
+.all
+{
+  background-color: var(--black);
+
+  border-bottom: 7px var(--dark_black) solid;
+}
+
+.all > h2, .all > h3
+{
+  text-align: center;
+  color: white;
+}
+
+.info1, .info2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 100%;
+
+  text-align: center;
+}
+
+.info1
+{
+  border-top: 4px var(--dark_black) solid;
+}
+
+.info2
+{
+  border-top: 4px var(--dark_black) solid;
+}
+
+.info1 > div
+{
+  width: 50%;
+  padding: 1%;
+}
+
+.info2 > div
+{
+  width: 33.3%;
+  padding: 1%;
+}
+
+.experience, .competences, .langues
+{
+  border-right: 2px var(--dark_black) solid;
+}
+
+.formation, .interets, .langues
+{
+  border-left: 2px var(--dark_black) solid;
+}
+
+.competences > section
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.competences > section > div > h3
+{
+  text-decoration: underline;
+}
+
+.info1 > div > h2, .info2 > div > h2
+{
+  color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .competences > section {
+    flex-direction: column;
+  }
+}
