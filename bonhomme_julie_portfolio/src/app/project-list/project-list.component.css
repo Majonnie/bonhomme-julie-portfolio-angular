@@ -61,6 +61,11 @@ span
   color: var(--red);
 }
 
+.indispo
+{
+  color: var(--red);
+}
+
 .project > img
 {
   width: 100%;

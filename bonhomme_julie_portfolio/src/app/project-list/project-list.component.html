@@ -1,11 +1,14 @@
 <div class="all">
   <h2>Voici mes projets réalisés jusqu'à maintenant !</h2>
-  <h3>Cliquez sur le nom d'un projet pour le découvrir ! [Ceux en <span>rouge</span> ne sont pas encore disponibles.]<br>
+  <h3>Cliquez sur le nom d'un projet pour le découvrir !<br>
+    [Ceux en <span>rouge</span> ne sont pas encore disponibles ou impossibles à partager comme tels.]<br>
   Cliquez sur le logo de Github pour accéder à son repository Github.</h3>
 
   <section class="project-list">
     <div class="project" *ngFor="let project of projects">
+      <!-- Donner une classe en fonction de project.dispo (if...) -->
       <a href='#'><h3>{{ project.name }}</h3></a>
+      <!-- <a class="indispo" href='#' class="dispo"><h3>{{ project.name }}</h3></a> -->
 
       <img *ngIf="project.image" src="{{ project.image }}">
 

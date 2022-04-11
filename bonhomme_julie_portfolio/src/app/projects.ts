@@ -5,9 +5,13 @@ export interface Project {
   date: string;
   description: string;
   image: string;
+  lien_VM: string;
+  lien_GH: string;
+  dispo: boolean;
 }
 
 export const projects = [
+  //Entrer les projets du plus vieux au plus récent
   {
     id: 1,
     name: 'Projet 1',
