@@ -7,7 +7,6 @@ export interface Project {
   image: string;
   lien_VM: string;
   lien_GH: string;
-  dispo: boolean;
 }
 
 export const projects = [
@@ -19,6 +18,8 @@ export const projects = [
     date: "Novembre 2022",
     description: 'DESC PROJET 1',
     image: "../assets/projets/red.png",
+    lien_VM: "TRUC",
+    lien_GH: "GH",
   },
   {
     id: 2,
@@ -27,6 +28,8 @@ export const projects = [
     date: "Novembre 2022",
     description: null,
     image: null,
+    lien_VM: "TRUC",
+    lien_GH: "GH",
   },
   {
     id: 3,
@@ -35,5 +38,7 @@ export const projects = [
     date: "Novembre 2022",
     description: "Description du projet, wow que de détails et de professionnalisme",
     image: null,
+    lien_VM: null,
+    lien_GH: "GH",
   },
 ];

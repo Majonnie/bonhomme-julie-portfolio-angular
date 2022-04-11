@@ -45,23 +45,26 @@ span
   box-shadow: 10px 10px var(--dark_black);
 }
 
-.project > a
+.dispo, .indispo
 {
   text-align: center;
   font-family: var(--title);
-
-  color: white;
   text-decoration: none;
 
   transition: color 150ms ease;
 }
 
-.project > a:hover
+.dispo
+{
+  color: var(--light_black);
+}
+
+.indispo
 {
   color: var(--red);
 }
 
-.indispo
+.project > a:hover
 {
   color: var(--red);
 }
