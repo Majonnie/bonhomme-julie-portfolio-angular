@@ -1,6 +1,7 @@
 .all
 {
   background-color: var(--black);
+  padding-top: 0.1%;
 
   border-bottom: 7px var(--dark_black) solid;
 }
@@ -9,6 +10,19 @@
 {
   text-align: center;
   color: white;
+}
+
+a
+{
+  color: var(--light_black);
+  text-decoration: none;
+
+  transition: color 150ms ease;
+}
+
+a:hover
+{
+  color: var(--red);
 }
 
 .info1, .info2

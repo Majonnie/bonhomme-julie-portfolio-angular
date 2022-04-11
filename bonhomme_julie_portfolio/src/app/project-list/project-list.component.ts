@@ -8,7 +8,7 @@ import { projects } from '../projects';
   styleUrls: ['./project-list.component.css']
 })
 export class ProjectListComponent implements OnInit {
-  projects = projects;
+  projects = projects.reverse(); //Les projets seront ainsi affichés du plus récent au plus ancien.
 
   constructor() {}
 
