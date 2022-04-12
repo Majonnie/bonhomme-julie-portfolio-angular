@@ -41,8 +41,43 @@
   color: var(--white);
 }
 
+.separateur
+{
+  align-self: center;
+  width: 0.1%;
+  height: 10em;
+  background-color: var(--white);
+}
+
 .all > h2, .all > h3
 {
   color: var(--white);
   text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .id
+  {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .image
+  {
+    width: 30%;
+    align-self: center;
+  }
+
+  .nom, .coordonnees
+  {
+    width: 55%;
+    font-size: medium;
+    align-self: center;
+  }
+
+  .separateur
+  {
+    height: 0;
+    visibility: hidden;
+  }
 }
