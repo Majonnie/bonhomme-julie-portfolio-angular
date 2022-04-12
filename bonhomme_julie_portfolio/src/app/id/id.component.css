@@ -7,11 +7,20 @@
   background-color: var(--black);
 }
 
+.all > h2, .all > h3
+{
+  color: var(--white);
+  text-align: center;
+}
+
 .id
 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  padding-bottom: 2%;
+  border-bottom: 4px var(--dark_black) solid;
 }
 
 .image
@@ -38,7 +47,6 @@
   font-size: larger;
 
   color: var(--white);
-  color: var(--white);
 }
 
 .separateur
@@ -49,16 +57,10 @@
   background-color: var(--white);
 }
 
-.all > h2, .all > h3
-{
-  color: var(--white);
-  text-align: center;
-}
-
 @media screen and (max-width: 1400px) {
   .id
   {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -79,5 +81,11 @@
   {
     height: 0;
     visibility: hidden;
+  }
+
+  .all > h3
+  {
+    padding-bottom: 2%;
+    border-bottom: 2px var(--white) solid;
   }
 }
