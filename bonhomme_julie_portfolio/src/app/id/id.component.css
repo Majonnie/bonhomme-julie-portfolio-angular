@@ -1,0 +1,48 @@
+/*Style de la partie id.*/
+/*Variables (polices, couleurs...) déclarées dans ../styles.css*/
+
+.all
+{
+  padding: 2%;
+  background-color: var(--black);
+}
+
+.id
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image
+{
+  width: 20%;
+}
+
+.image > img
+{
+  width: 100%;
+  border: 2px var(--dark_black) solid;
+  box-shadow: 10px 10px var(--dark_black);
+}
+
+.nom, .coordonnees
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 20%;
+
+  text-align: center;
+  font-size: larger;
+
+  color: var(--white);
+  color: var(--white);
+}
+
+.all > h2, .all > h3
+{
+  color: var(--white);
+  text-align: center;
+}
