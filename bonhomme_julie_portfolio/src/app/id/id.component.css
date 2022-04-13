@@ -7,6 +7,11 @@
   background-color: var(--black);
 }
 
+.all > h2
+{
+  text-decoration: underline;
+}
+
 .all > h2, .all > h3
 {
   color: var(--white);
@@ -21,6 +26,19 @@
 
   padding-bottom: 2%;
   border-bottom: 4px var(--dark_black) solid;
+}
+
+a
+{
+  color: var(--light_black);
+  text-decoration: none;
+
+  transition: color 150ms ease;
+}
+
+a:hover
+{
+  color: var(--red);
 }
 
 .image

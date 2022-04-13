@@ -33,19 +33,11 @@ a:hover
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  color: var(--white);
 
   width: 100%;
-
   text-align: center;
-}
 
-.info1
-{
-  border-top: 4px var(--dark_black) solid;
-}
-
-.info2
-{
   border-top: 4px var(--dark_black) solid;
 }
 
@@ -63,12 +55,17 @@ a:hover
 
 .experience, .competences, .langues
 {
-  border-right: 2px var(--dark_black) solid;
+  border-right: 5px var(--dark_black) solid;
 }
 
 .formation, .interets, .langues
 {
-  border-left: 2px var(--dark_black) solid;
+  border-left: 5px var(--dark_black) solid;
+}
+
+.formation, .experience
+{
+  line-height: 1.7em;
 }
 
 .competences > section
@@ -86,6 +83,8 @@ a:hover
 .info1 > div > h2, .info2 > div > h2
 {
   color: white;
+  font-family: var(--title);
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1400px) {
