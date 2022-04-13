@@ -15,6 +15,11 @@
   color: white;
 }
 
+.all > h3
+{
+  font-style: italic;
+}
+
 a
 {
   color: var(--light_black);
