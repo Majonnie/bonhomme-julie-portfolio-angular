@@ -7,15 +7,15 @@
   background-color: var(--black);
 }
 
-.all > h2
-{
-  text-decoration: underline;
-}
-
 .all > h2, .all > h3
 {
   color: var(--white);
   text-align: center;
+}
+
+.all > h2
+{
+  text-decoration: underline;
 }
 
 .id
@@ -93,6 +93,11 @@ a:hover
     width: 55%;
     font-size: medium;
     align-self: center;
+  }
+
+  .nom
+  {
+    margin-bottom: 2%;
   }
 
   .separateur
