@@ -20,7 +20,7 @@ export const projects = [
       " Le joueur doit affronter des monstres puis un boss et peut choisir d’attaquer ou de se soigner à chaque tour.",
     image: "../assets/projets/red.png",
     lien_VM: null,
-    lien_GH: "GH",
+    lien_GH: null,
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const projects = [
       " répétitivement sur un bouton et en achetant des améliorations.",
     image: "../assets/projets/red.png",
     lien_VM: "TRUC",
-    lien_GH: "GH",
+    lien_GH: null,
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const projects = [
       "gestion des produits pour les administrateurs, panier, profil de l'utilisateur avec historique des commandes...",
     image: "../assets/projets/red.png",
     lien_VM: "TRUC",
-    lien_GH: "GH",
+    lien_GH: null,
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ export const projects = [
     description: "Création d'un outil de génération de factures afin de répondre à un besoin d'organisation de l'entreprise.",
     image: "../assets/projets/red.png",
     lien_VM: "TRUC",
-    lien_GH: "GH",
+    lien_GH: null,
   },
   {
     id: 5,
@@ -62,7 +62,7 @@ export const projects = [
     description: "Réimplémentation de la commande ls en C.",
     image: "../assets/projets/red.png",
     lien_VM: null,
-    lien_GH: "GH",
+    lien_GH: null,
   },
   {
     id: 6,
@@ -73,6 +73,6 @@ export const projects = [
       "le design et les animations du personnage et des ennemis, la caméra et les mouvements).",
     image: "../assets/projets/red.png",
     lien_VM: null,
-    lien_GH: "GH",
+    lien_GH: "https://github.com/Majonnie/CodeCampsGraven/tree/fusion-back",
   },
 ];

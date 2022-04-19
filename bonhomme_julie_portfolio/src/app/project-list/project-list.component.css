@@ -35,6 +35,7 @@ span
 .project
 {
   padding: 2%;
+  padding-bottom: 5%;
   margin: 3%;
 
   height: 27em;
@@ -65,12 +66,12 @@ span
   color: var(--red);
 }
 
-.project > a:hover
+.project > .dispo:hover
 {
   color: var(--red);
 }
 
-.project > img
+.project > .image
 {
   width: 100%;
 }
@@ -79,4 +80,28 @@ span
 {
   /*Au cas où*/
   overflow: scroll;
+}
+
+.project > .gh_dispo, .project > .gh_indispo
+{
+  width: 10%;
+  height: 6.1%;
+  background-size: cover;
+
+  transition: all 150ms ease-in;
+}
+
+.project > .gh_dispo
+{
+  content: url("../../assets/logo_github.png");
+}
+
+.project > .gh_indispo
+{
+  content: url("../../assets/logo_github_red.png");
+}
+
+.project > .gh_dispo:hover
+{
+  content: url("../../assets/logo_github_red.png");
 }

@@ -6,11 +6,10 @@
 
   <section class="project-list">
     <div class="project" *ngFor="let project of projects">
-      <!-- Donner une classe en fonction de project.dispo (if...) -->
       <a *ngIf="project.lien_VM" class="dispo" href='{{ project.lien_VM }}'><h2>{{ project.name }}</h2></a>
       <a *ngIf="project.lien_VM == null" class="indispo"><h2>{{ project.name }}</h2></a>
 
-      <img *ngIf="project.image" src="{{ project.image }}">
+      <img class="image" *ngIf="project.image" src="{{ project.image }}">
 
       <p>> {{ project.tech }}</p>
 
@@ -19,6 +18,12 @@
       <p class="description" *ngIf="project.description">
         {{ project.description }}
       </p>
+
+
+      <a *ngIf="project.lien_GH" class="gh_dispo" href="{{ project.lien_GH }}" target="_blank">
+        <img src="../../assets/logo_github.png">
+      </a>
+      <a *ngIf="project.lien_GH == null" class="gh_indispo"></a>
     </div>
   </section>
 </div>
