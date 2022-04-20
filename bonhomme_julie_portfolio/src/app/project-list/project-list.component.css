@@ -84,8 +84,8 @@ span
 
 .project > .gh_dispo, .project > .gh_indispo
 {
-  width: 10%;
-  height: 6.1%;
+  width: 1.8em;
+  height: 1.8em;
   background-size: cover;
 
   transition: all 150ms ease-in;
@@ -104,4 +104,11 @@ span
 .project > .gh_dispo:hover
 {
   content: url("../../assets/logo_github_red.png");
+}
+
+@media screen and (max-width: 1400px) {
+  .project {
+    height: 30em;
+    padding-bottom: 7%;
+  }
 }

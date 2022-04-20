@@ -52,7 +52,7 @@ export const projects = [
     description: "Création d'un outil de génération de factures afin de répondre à un besoin d'organisation de l'entreprise.",
     image: "../assets/projets/red.png",
     lien_VM: "TRUC",
-    lien_GH: null,
+    lien_GH: "https://github.com/garoNits/J2BCamp",
   },
   {
     id: 5,
