@@ -20,7 +20,7 @@ export const projects = [
       " Le joueur doit affronter des monstres puis un boss et peut choisir d’attaquer ou de se soigner à chaque tour.",
     image: "../assets/projets/red.png",
     lien_VM: null,
-    lien_GH: null,
+    lien_GH: "https://github.com/Majonnie/hyrule-castle",
   },
   {
     id: 2,
