@@ -1,0 +1,1 @@
+@import"https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap";body{--title: "Montserrat";--text_bloc: "Roboto";--black: #353A47;--dark_black: #21232AFF;--light_black: #979aaf;--light_red: #c43e54;--red: #A63446;--dark_red: #8d2333;--white: #FBFEF9}html,body{margin:0;font-family:var(--text_bloc)}
