@@ -38,7 +38,7 @@ span
   padding-bottom: 5%;
   margin: 3%;
 
-  height: 27em;
+  height: 28em;
   width: 17em;
 
   color: var(--white);
@@ -74,6 +74,7 @@ span
 .project > .image
 {
   width: 100%;
+  box-shadow: 5px 5px var(--dark_black);
 }
 
 .description
@@ -109,6 +110,6 @@ span
 @media screen and (max-width: 1400px) {
   .project {
     height: 30em;
-    padding-bottom: 7%;
+    padding-bottom: 7.5%;
   }
 }
