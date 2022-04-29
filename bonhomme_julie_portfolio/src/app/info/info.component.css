@@ -101,3 +101,26 @@ a:hover
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .all {
+    border: none;
+  }
+  .info1, .info2 {
+    flex-direction: column;
+    border: none;
+    width: 90%;
+  }
+  .info1 > div, .info2 > div {
+    border: none;
+    border-top: 2px var(--dark_black) solid;
+    border-bottom: 2px var(--dark_black) solid;
+    width: 100%;
+  }
+  .info1 > .experience {
+    border-top: 4px var(--dark_black) solid;
+  }
+  .info2 > .interets {
+    border-bottom: 4px var(--dark_black) solid;
+  }
+}

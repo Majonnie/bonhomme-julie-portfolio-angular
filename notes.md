@@ -11,3 +11,5 @@ Bien utiliser flex
 Partie Info -> à mettre après Project-list ?
 (dans ce cas mettre la présentation à la fin de Id ou
 au début de Project-list)
+
+- Responsive téléphone : passer la partie CV (infos) UNIQUEMENT en colonnes.
