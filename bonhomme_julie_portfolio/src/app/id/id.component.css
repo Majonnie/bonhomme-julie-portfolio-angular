@@ -112,3 +112,9 @@ a:hover
     border-bottom: 2px var(--white) solid;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .id > .coordonnees {
+    width: 100%;
+  }
+}

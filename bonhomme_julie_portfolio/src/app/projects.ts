@@ -30,7 +30,7 @@ export const projects = [
     description: "Jeu consistant à obtenir un maximum de ressources en cliquant" +
       " répétitivement sur un bouton et en achetant des améliorations.",
     image: "../assets/projets/clicker_game.png",
-    lien_VM: "TRUC",
+    lien_VM: null,
     lien_GH: "https://github.com/Majonnie/MyClickerGame",
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     description: "Création d'un site d'e-commerce à l'aide du framework Laravel : catalogue trié par pays," +
       " gestion des produits pour les administrateurs, panier, profil de l'utilisateur avec historique des commandes...",
     image: "../assets/projets/liberty_commerce.png",
-    lien_VM: "TRUC",
+    lien_VM: null,
     lien_GH: "https://github.com/Majonnie/LibertyCommerce",
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     date: "Décembre 2021",
     description: "Création d'un outil de génération de factures afin de répondre à un besoin d'organisation de l'entreprise.",
     image: "../assets/projets/site_J2B.png",
-    lien_VM: "TRUC",
+    lien_VM: null,
     lien_GH: "https://github.com/garoNits/J2BCamp",
   },
   {
